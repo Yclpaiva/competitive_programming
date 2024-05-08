@@ -1,8 +1,5 @@
-palavra = input()
-palavra2 = input()
-
-palavra = palavra.split().sort()
-palavra2 = palavra2.split().sort()
+palavra = input().split().sort()
+palavra2 = input().split().sort()
 
 if palavra == palavra2:
     print('S')
